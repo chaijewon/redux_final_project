@@ -76,30 +76,37 @@ function Header(){
                                         <li className="nav-item dropdown">
                                             <a className="nav-link dropdown-toggle" href="#" id="yummyDropdown"
                                                role="button" data-toggle="dropdown" aria-haspopup="true"
-                                               aria-expanded="false">Pages</a>
+                                               aria-expanded="false">맛집</a>
                                             <div className="dropdown-menu" aria-labelledby="yummyDropdown">
-                                                <a className="dropdown-item" href="index.html">Home</a>
-                                                <a className="dropdown-item" href="archive.html">Archive</a>
-                                                <a className="dropdown-item" href="single.html">Single Blog</a>
-                                                <a className="dropdown-item" href="static.html">Static Page</a>
-                                                <a className="dropdown-item" href="contact.html">Contact</a>
+                                                <a className="dropdown-item" href="index.html">맛집 목록</a>
+                                                <a className="dropdown-item" href="archive.html">맛집 검색</a>
+                                                <a className="dropdown-item" href="archive.html">맛집 예약</a>
+                                            </div>
+                                        </li>
+                                        <li className="nav-item dropdown">
+                                            <a className="nav-link dropdown-toggle" href="#" id="yummyDropdown"
+                                               role="button" data-toggle="dropdown" aria-haspopup="true"
+                                               aria-expanded="false">레시피</a>
+                                            <div className="dropdown-menu" aria-labelledby="yummyDropdown">
+                                                <a className="dropdown-item" href="index.html">레시피 목록</a>
+                                                <a className="dropdown-item" href="archive.html">쉐프</a>
+                                            </div>
+                                        </li>
+                                        <li className="nav-item dropdown">
+                                            <a className="nav-link dropdown-toggle" href="#" id="yummyDropdown"
+                                               role="button" data-toggle="dropdown" aria-haspopup="true"
+                                               aria-expanded="false">스토어</a>
+                                            <div className="dropdown-menu" aria-labelledby="yummyDropdown">
+                                                <a className="dropdown-item" href="index.html">전체 상품</a>
+                                                <a className="dropdown-item" href="archive.html">베스트 상품</a>
+                                                <a className="dropdown-item" href="archive.html">신상품</a>
+                                                <a className="dropdown-item" href="archive.html">특가 상품</a>
                                             </div>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" href="#">Features</a>
+                                            <a className="nav-link" href="#">커뮤니티</a>
                                         </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="#">Categories</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="archive.html">Archive</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="#">About</a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a className="nav-link" href="contact.html">Contact</a>
-                                        </li>
+
                                     </ul>
                                 </div>
                             </nav>
